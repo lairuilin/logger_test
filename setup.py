@@ -9,11 +9,14 @@ __status__ = "Development"
 
 import setuptools
 
-setup(name='loggerTest',
-      version='0.0.1',
-      description='string to date',
-      url='',
-      author='ruilin',
+setuptools.setup(name='loggerTest',
+      version='0.0.8',
+      description='我在測試看看嘿',
+      url='https://github.com/lairuilin/logger_test',
+      author='lairuilin',
       author_email='kalai850531@g.ncu.edu.tw',
       license='MIT',
-      packages=['loggerTest'])
+      packages=['loggerTest'],
+      install_requires=['jupyter'],
+      include_package_data=True
+     )
