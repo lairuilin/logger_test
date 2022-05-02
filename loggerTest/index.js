@@ -186,7 +186,7 @@ define(["require", "jquery", "base/js/namespace", "base/js/events", "base/js/uti
 			
 	/////////////////////////////
 		  // $.ajax({
-			  url: "http://140.115.135.174/lai/edm.php",
+		//	  url: "http://140.115.135.174/lai/edm.php",
 	//		  type: "post",
 	//		  datatype: "json",
 	//		  data: {data:output},
