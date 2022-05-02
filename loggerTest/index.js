@@ -185,21 +185,21 @@ define(["require", "jquery", "base/js/namespace", "base/js/events", "base/js/uti
 			
 			
 	/////////////////////////////
-		   $.ajax({
+		  // $.ajax({
 			  url: "http://140.115.135.174/lai/edm.php",
-			  type: "post",
-			  datatype: "json",
-			  data: {data:output},
-			  // contentType: "application/json; charset=utf-8",
-			  async: false,
-			  success: function (respones) {
-			  //成功處理
-			  console.log("insert excute log to ruilin's server");
-			},
-			error: function (jqXHR) {
-			  console.log("發生錯誤: " + jqXHR);
-			}
-		   });
+	//		  type: "post",
+	//		  datatype: "json",
+	//		  data: {data:output},
+	//		  // contentType: "application/json; charset=utf-8",
+	//		  async: false,
+	//		  success: function (respones) {
+	//		  //成功處理
+	//		  console.log("insert excute log to ruilin's server");
+	//		},
+	//		error: function (jqXHR) {
+	//		  console.log("發生錯誤: " + jqXHR);
+	//		}
+	//	   });
 		   $.ajax({
 				url: "http://140.115.135.60/edm/edm.php",
 				type: "post",
